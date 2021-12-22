@@ -9,7 +9,7 @@ fun main() {
     println("vale: $value")
 
     /*
-    Handle null object using try/catch
+    1. Handle null object using try/catch
     */
     try {
         stringNullObject!!.length
@@ -18,7 +18,7 @@ fun main() {
     }
 
     /*
-    Handle null object using if check
+    2. Handle null object using if check
     */
     if (stringNullObject != null) {
         println("stringNullObject: $stringNullObject")
@@ -27,18 +27,18 @@ fun main() {
     }
 
     /*
-    Handle null object using safe calls
+    3. Handle null object using safe calls
     */
     println(stringNullObject?.length)
 
     /*
-    Handle null object using Elvis operator
+    4. Handle null object using Elvis operator
     */
     val length = stringNullObject?.length ?: -1
     println("length is: $length")
 
     /*
-    Handle null object using extension function
+    5. Handle null object using extension function
     */
     if (!stringNullObject.isNullOrBlank()) {
         println("stringNullObject: $stringNullObject")

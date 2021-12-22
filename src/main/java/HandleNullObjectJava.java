@@ -13,7 +13,7 @@ public class HandleNullObjectJava {
 
 
         /*
-        Handle null object using try/catch
+        1. Handle null object using try/catch
         */
         try {
             nullObject.equals("Erselan Khan");
@@ -22,7 +22,7 @@ public class HandleNullObjectJava {
         }
 
         /*
-        Handle null object using if check
+        2. Handle null object using if check
         */
         if (nullObject != null) {
             System.out.println("nullObject: " + nullObject);
