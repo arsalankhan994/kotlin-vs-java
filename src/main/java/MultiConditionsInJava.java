@@ -9,6 +9,9 @@ public class MultiConditionsInJava {
         State state = State.NOT_STARTED;
         switch (state) {
             case STARTED, NOT_STARTED, CANCELLED, COMPLETED, IN_PROGRESS -> System.out.println("State is: " + state);
+            default -> {
+                System.out.println("Some Default State");
+            }
         }
 
         /*
@@ -27,6 +30,9 @@ public class MultiConditionsInJava {
             case 3:  {
                 System.out.println("Integer value: " + 3);
                 break;
+            }
+            default:  {
+                System.out.println("Some Default Int");
             }
         }
 
@@ -50,6 +56,9 @@ public class MultiConditionsInJava {
             case "KotlinVsJava":  {
                 System.out.println("String value: " + stringList.get(3));
                 break;
+            }
+            default:  {
+                System.out.println("Some Default String");
             }
         }
     }

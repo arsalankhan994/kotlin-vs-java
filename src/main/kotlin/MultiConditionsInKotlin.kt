@@ -34,6 +34,9 @@ private fun printStringValue(stringList: List<String>) {
         stringList[3] -> {
             println("String value: ${stringList[3]}")
         }
+        else -> {
+            println("Some Default String")
+        }
     }
 }
 
@@ -50,6 +53,9 @@ private fun printIntValue(integerList: List<Int>) {
         }
         4 -> {
             println("Int value: ${integerList[3]}")
+        }
+        else -> {
+            println("Some Default Int")
         }
     }
 }
@@ -70,6 +76,9 @@ private fun printState(state: State) {
         }
         State.CANCELLED -> {
             println("State: $state")
+        }
+        else -> {
+            println("No State")
         }
     }
 }
