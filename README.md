@@ -1,4 +1,4 @@
-# kotlin-vs-java
+# Kotlin-vs-Java
 
 Topics:
 1) Variable Initialization
