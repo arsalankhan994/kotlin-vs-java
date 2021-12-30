@@ -4,7 +4,7 @@ fun main() {
     using val, to assign value only one time
     */
     val assignValueOnlyOneTime = "Erselan Khan"
-    assignValueOnlyOneTime = ""
+    /*assignValueOnlyOneTime = ""*/
 
     /*
     using var, to assign value multiple times
@@ -52,9 +52,9 @@ open class ExtendableClass {
 
 }
 
-class ChildClassTwo : NonExtendableClass() {
+/*class ChildClassTwo : NonExtendableClass() {
 
-}
+}*/
 
 /*
 by default all classes are non-extendable in Kotlin
